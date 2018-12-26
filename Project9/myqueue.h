@@ -3,7 +3,6 @@
 
 #define NULL 0
 
-
 struct el
 {
 public:

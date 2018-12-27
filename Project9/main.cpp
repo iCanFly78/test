@@ -1,5 +1,7 @@
 #include "mylib.h"
-#include "myqueue.h"
+#include "myvector.h"
+
+#include <iostream>
 
 using namespace std;
 
@@ -22,6 +24,21 @@ int main()
 	for (int i = 0; i < c; i++)
 	{
 		cout <<	o1.get() << " ";
+	}
+
+	mystack s1;
+	cout << "\nInput lenght of stack: ";
+	cin >> c;
+
+	for (int i = 0; i < c; i++)
+	{
+		cin >> d;
+		s1.put(d);
+	}
+
+	for (int i = 0; i < c; i++)
+	{
+		cout << s1.get() << " ";
 	}
 
 	exitwkey(); 

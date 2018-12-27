@@ -117,11 +117,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mylib.cpp" />
-    <ClCompile Include="myqueue.cpp" />
+    <ClCompile Include="myvector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="mylib.h" />
-    <ClInclude Include="myqueue.h" />
+    <ClInclude Include="myvector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
